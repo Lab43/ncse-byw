@@ -10,3 +10,5 @@
   * Contact
 * Wire-up urls
 * Replace images with appropriate file sizes
+* Test map background on large screens
+* Improve scrolling on touch devices (iPhone/iPad/etc)
