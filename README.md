@@ -13,3 +13,5 @@
 * Test map background on large screens
 * Improve scrolling on touch devices (iPhone/iPad/etc)
 * Add attribution for map image. [See here](http://maps.stamen.com).
+* Add a footer, possibly exactly the exact same as ncse.org
+* Test in IE
