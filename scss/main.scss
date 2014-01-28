@@ -1,0 +1,193 @@
+@import "normalize";
+@import "boilerplate";
+@import "animate";
+
+$body-width: 950px;
+
+$tan: #f4f2df;
+$brown: #332b1e;
+$green: #336035;
+$purple: #846eac;
+
+$retina: "only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx)";
+
+$frame-width: 15px;
+
+
+html, body {
+  height: 100%;
+  font-size: 20px;
+  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+  color: #333;
+}
+
+h2 {
+  font-size: 32px;
+  color: $green;
+  margin-top: 0;
+  line-height: 1.2em;
+}
+h3 {
+  font-size: 36px;
+  color: $purple;
+  margin: 0;
+  line-height: 1.2em;
+  text-align: center;
+}
+
+p {
+  margin: 0;
+  & + p {
+    margin-top: 1em;
+  }
+}
+
+#map {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 100%;
+  z-index: -1;
+  background: url(../img/map_huge.jpg) center top no-repeat;
+  &.fix {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+  }
+  & > .inner {
+    width: $body-width;
+    margin: 0 auto;
+    position: relative;
+  }
+}
+#marker {
+  position: absolute;
+  left: 50%;
+  top: 98px;
+  margin-left: 286px;
+  display: none;
+  &.bounceInDown, &.bounceOut {
+    display: block;
+  }
+}
+
+.key-wrap {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.key-wrap-2 {
+  width: $body-width;
+  margin: 0 auto;
+  position: relative;
+}
+#key {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 317px; // 375 - padding - border
+  background: rgba($brown, 0.85);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  padding: 25px;
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin-right: -4px; // same as border
+  border: 4px solid $brown;
+  border-bottom: none;
+  strong {
+    font-size: 22px;
+  }
+  table {
+    width: 100%;
+  }
+  td {
+    vertical-align: top;
+    padding: 5px 0;
+  }
+  td:first-child {
+    width: 40px;
+    padding: 0 20px 0 5px;
+    font-weight: bold;
+  }
+  img {
+    margin-top: 4px;
+  }
+  a {
+    color: #fff;
+  }
+}
+
+#header {
+  background: $tan;
+}
+
+.dino {
+  height: 180px;
+  width: 50%;
+  float: left;
+  background: url(../img/dino.png) right bottom no-repeat;
+  /*@media #{$retina} {*/
+    background-image: url(../img/dino_2x.png);
+    background-size: 625px 189px;
+  /*}*/
+}
+
+.ncse-logo {
+  float: left;
+  width: $body-width / 2;
+  a {
+    display: block;
+    float: right;
+    margin-top: 56px;
+  }
+}
+
+.banner {
+  clear: left;
+  background: $brown;
+  padding: 12px 0;
+  .inner {
+    width: $body-width;
+    margin: 0 auto;
+  }
+  h1 {
+    height: 44px;
+    margin: 0 0 0 -2px;
+    background: url(../img/logo.png) left center no-repeat;
+    @media #{$retina} {
+      background-image: url(../img/logo_2x.png);
+      background-size: 509px 44px;
+    }
+  }
+}
+
+#page {
+  width: $body-width;
+  margin: 0 auto;
+  .inner {
+    margin: 0 ($frame-width * -1);
+    padding: 0 $frame-width;
+    float: left;
+    width: 500px;
+    background: rgba(255, 255, 255, 0.65);
+    //border-radius: $frame-width + 3px;
+  }
+}
+
+section {
+  background: #fff;
+  border-radius: 5px;
+  padding: 40px;
+  margin: 10px 0;
+}
+
+.dino-pattern {
+  background-image: url(../img/dino-pattern.gif);
+  @media #{$retina} {
+    background-image: url(../img/dino-pattern_2x.gif);
+    background-size: 125px;
+  }
+}
