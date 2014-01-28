@@ -12,3 +12,4 @@
 * Replace images with appropriate file sizes
 * Test map background on large screens
 * Improve scrolling on touch devices (iPhone/iPad/etc)
+* Add attribution for map image. [See here](http://maps.stamen.com).
