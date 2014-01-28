@@ -4012,7 +4012,7 @@ p + p {
   right: 0;
   height: 100%;
   z-index: -1;
-  background: url(../img/map_huge.jpg) center top no-repeat;
+  background: url(../img/map.jpg) center top no-repeat;
 }
 /* line 52, ../scss/main.scss */
 #map.fix {
@@ -4093,7 +4093,7 @@ p + p {
 }
 /* line 115, ../scss/main.scss */
 #key img {
-  margin-top: 4px;
+  margin-top: 10px;
 }
 /* line 118, ../scss/main.scss */
 #key a {
