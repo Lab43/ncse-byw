@@ -53,11 +53,11 @@ a {
 ul {
   padding: 0;
   list-style: none;
-  margin: 1em 0 0;
   li {
     padding: 0.25em 0;
+    border-top: 1px dotted #999999;
     + li {
-      border-top: 1px dotted #999999;
+      border-bottom: 1px dotted #999999;
     }
   }
 }
@@ -150,7 +150,7 @@ ul {
   float: left;
   background: url(../img/dino.png) right bottom no-repeat;
   /*@media #{$retina} {*/
-    background-image: url(../img/dino_2x.png);
+    background-image: url(../img/dino.png);
     background-size: 625px 189px;
   /*}*/
 }
@@ -176,11 +176,8 @@ ul {
   h1 {
     height: 44px;
     margin: 0 0 0 -2px;
-    background: url(../img/logo.png) left center no-repeat;
-    @media #{$retina} {
-      background-image: url(../img/logo_2x.png);
-      background-size: 509px 44px;
-    }
+    background-image: url(../img/logo.png);
+    background-size: 509px 44px;
   }
 }
 
@@ -206,15 +203,22 @@ section {
 
 .dino-pattern {
   background-image: url(../img/dino-pattern.gif);
-  @media #{$retina} {
-    background-image: url(../img/dino-pattern_2x.gif);
-    background-size: 125px;
-  }
+  background-size: 125px;
 }
 
 .sponsors {
   width: 100%;
   td + td {
     padding-left: 30px;
+  }
+}
+
+.attr {
+  font-size: 16px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: #999;
+  a {
+    color: #999;
   }
 }
