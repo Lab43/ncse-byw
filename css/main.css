@@ -4187,3 +4187,12 @@ section {
     background-size: 125px;
   }
 }
+
+/* line 195, ../scss/main.scss */
+.sponsors {
+  width: 100%;
+}
+/* line 197, ../scss/main.scss */
+.sponsors td + td {
+  padding-left: 30px;
+}

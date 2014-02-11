@@ -5,7 +5,6 @@
 ## To Do
 
 * Finish sections
-  * Sponsors
   * Resource Center
   * Contact
 * Wire-up urls
