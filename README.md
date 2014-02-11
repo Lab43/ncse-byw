@@ -5,7 +5,6 @@
 ## To Do
 
 * Finish sections
-  * Resource Center
   * Contact
 * Wire-up urls
 * Replace images with appropriate file sizes

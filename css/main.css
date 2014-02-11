@@ -3971,7 +3971,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   animation-name: rollOut;
 }
 
-/* line 17, ../scss/main.scss */
+/* line 18, ../scss/main.scss */
 html, body {
   height: 100%;
   font-size: 20px;
@@ -3979,7 +3979,7 @@ html, body {
   color: #333;
 }
 
-/* line 24, ../scss/main.scss */
+/* line 25, ../scss/main.scss */
 h2 {
   font-size: 32px;
   color: #336035;
@@ -3987,7 +3987,7 @@ h2 {
   line-height: 1.2em;
 }
 
-/* line 30, ../scss/main.scss */
+/* line 31, ../scss/main.scss */
 h3 {
   font-size: 36px;
   color: #846eac;
@@ -3996,16 +3996,40 @@ h3 {
   text-align: center;
 }
 
-/* line 38, ../scss/main.scss */
+/* line 39, ../scss/main.scss */
 p {
   margin: 0;
 }
-/* line 40, ../scss/main.scss */
+/* line 41, ../scss/main.scss */
 p + p {
   margin-top: 1em;
 }
 
-/* line 45, ../scss/main.scss */
+/* line 46, ../scss/main.scss */
+a {
+  color: #846eac;
+}
+/* line 48, ../scss/main.scss */
+a:hover {
+  color: #534272;
+}
+
+/* line 53, ../scss/main.scss */
+ul {
+  padding: 0;
+  list-style: none;
+  margin: 1em 0 0;
+}
+/* line 57, ../scss/main.scss */
+ul li {
+  padding: 0.25em 0;
+}
+/* line 59, ../scss/main.scss */
+ul li + li {
+  border-top: 1px dotted #999999;
+}
+
+/* line 65, ../scss/main.scss */
 #map {
   position: absolute;
   left: 0;
@@ -4014,20 +4038,20 @@ p + p {
   z-index: -1;
   background: url(../img/map.jpg) center top no-repeat;
 }
-/* line 52, ../scss/main.scss */
+/* line 72, ../scss/main.scss */
 #map.fix {
   position: fixed;
   top: 0;
   bottom: 0;
 }
-/* line 57, ../scss/main.scss */
+/* line 77, ../scss/main.scss */
 #map > .inner {
   width: 950px;
   margin: 0 auto;
   position: relative;
 }
 
-/* line 63, ../scss/main.scss */
+/* line 83, ../scss/main.scss */
 #marker {
   position: absolute;
   left: 50%;
@@ -4035,12 +4059,12 @@ p + p {
   margin-left: 286px;
   display: none;
 }
-/* line 69, ../scss/main.scss */
+/* line 89, ../scss/main.scss */
 #marker.bounceInDown, #marker.bounceOut {
   display: block;
 }
 
-/* line 74, ../scss/main.scss */
+/* line 94, ../scss/main.scss */
 .key-wrap {
   position: fixed;
   bottom: 0;
@@ -4048,14 +4072,14 @@ p + p {
   right: 0;
 }
 
-/* line 80, ../scss/main.scss */
+/* line 100, ../scss/main.scss */
 .key-wrap-2 {
   width: 950px;
   margin: 0 auto;
   position: relative;
 }
 
-/* line 85, ../scss/main.scss */
+/* line 105, ../scss/main.scss */
 #key {
   position: absolute;
   right: 0;
@@ -4072,40 +4096,40 @@ p + p {
   border: 4px solid #332b1e;
   border-bottom: none;
 }
-/* line 100, ../scss/main.scss */
+/* line 120, ../scss/main.scss */
 #key strong {
   font-size: 22px;
 }
-/* line 103, ../scss/main.scss */
+/* line 123, ../scss/main.scss */
 #key table {
   width: 100%;
 }
-/* line 106, ../scss/main.scss */
+/* line 126, ../scss/main.scss */
 #key td {
   vertical-align: top;
   padding: 5px 0;
 }
-/* line 110, ../scss/main.scss */
+/* line 130, ../scss/main.scss */
 #key td:first-child {
   width: 40px;
   padding: 0 20px 0 5px;
   font-weight: bold;
 }
-/* line 115, ../scss/main.scss */
+/* line 135, ../scss/main.scss */
 #key img {
   margin-top: 10px;
 }
-/* line 118, ../scss/main.scss */
+/* line 138, ../scss/main.scss */
 #key a {
   color: #fff;
 }
 
-/* line 123, ../scss/main.scss */
+/* line 143, ../scss/main.scss */
 #header {
   background: #f4f2df;
 }
 
-/* line 127, ../scss/main.scss */
+/* line 147, ../scss/main.scss */
 .dino {
   height: 180px;
   width: 50%;
@@ -4117,49 +4141,49 @@ p + p {
   /*}*/
 }
 
-/* line 138, ../scss/main.scss */
+/* line 158, ../scss/main.scss */
 .ncse-logo {
   float: left;
   width: 475px;
 }
-/* line 141, ../scss/main.scss */
+/* line 161, ../scss/main.scss */
 .ncse-logo a {
   display: block;
   float: right;
   margin-top: 56px;
 }
 
-/* line 148, ../scss/main.scss */
+/* line 168, ../scss/main.scss */
 .banner {
   clear: left;
   background: #332b1e;
   padding: 12px 0;
 }
-/* line 152, ../scss/main.scss */
+/* line 172, ../scss/main.scss */
 .banner .inner {
   width: 950px;
   margin: 0 auto;
 }
-/* line 156, ../scss/main.scss */
+/* line 176, ../scss/main.scss */
 .banner h1 {
   height: 44px;
   margin: 0 0 0 -2px;
   background: url(../img/logo.png) left center no-repeat;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  /* line 156, ../scss/main.scss */
+  /* line 176, ../scss/main.scss */
   .banner h1 {
     background-image: url(../img/logo_2x.png);
     background-size: 509px 44px;
   }
 }
 
-/* line 167, ../scss/main.scss */
+/* line 187, ../scss/main.scss */
 #page {
   width: 950px;
   margin: 0 auto;
 }
-/* line 170, ../scss/main.scss */
+/* line 190, ../scss/main.scss */
 #page .inner {
   margin: 0 -15px;
   padding: 0 15px;
@@ -4168,7 +4192,7 @@ p + p {
   background: rgba(255, 255, 255, 0.65);
 }
 
-/* line 180, ../scss/main.scss */
+/* line 200, ../scss/main.scss */
 section {
   background: #fff;
   border-radius: 5px;
@@ -4176,23 +4200,23 @@ section {
   margin: 10px 0;
 }
 
-/* line 187, ../scss/main.scss */
+/* line 207, ../scss/main.scss */
 .dino-pattern {
   background-image: url(../img/dino-pattern.gif);
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  /* line 187, ../scss/main.scss */
+  /* line 207, ../scss/main.scss */
   .dino-pattern {
     background-image: url(../img/dino-pattern_2x.gif);
     background-size: 125px;
   }
 }
 
-/* line 195, ../scss/main.scss */
+/* line 215, ../scss/main.scss */
 .sponsors {
   width: 100%;
 }
-/* line 197, ../scss/main.scss */
+/* line 217, ../scss/main.scss */
 .sponsors td + td {
   padding-left: 30px;
 }
